@@ -1,0 +1,243 @@
+{
+  "tabsVisible": false,
+  "tabs": [
+    {
+      "id": 0,
+      "fields": [
+        {
+          "id": 0,
+          "type": "GROUP_HEADER",
+          "name": "generalInformation",
+          "state": "General Information"
+        },
+        {
+          "id": 1,
+          "type": "TEXT_FIELD",
+          "name": "propertyName",
+          "state": "Project Name",
+          "required": true,
+          "validation": "MIN_LENGTH:3",
+          "default": "This is P1."
+        },
+        {
+          "id": 2,
+          "type": "SELECT",
+          "name": "zone",
+          "state": "Zone",
+          "lookupTypeId": 25,
+          "required": true
+        },
+        {
+          "id": 3,
+          "type": "TEXT_FIELD",
+          "name": "referencedPropertyName",
+          "state": "Post-Construction Site",
+          "readOnly": true
+        },
+        {
+          "id": 4,
+          "type": "CHECKBOX",
+          "name": "noReferencedProperty",
+          "state": "No Post-Construction Pairing",
+          "default": false
+        },
+        {
+          "id": 5,
+          "type": "GROUP_HEADER",
+          "name": "permitting",
+          "state": "Permitting"
+        },
+        {
+          "id": 6,
+          "type": "TEXT_FIELD",
+          "name": "permitNumber",
+          "state": "Permit Number"
+        },
+        {
+          "id": 7,
+          "type": "TEXT_FIELD",
+          "name": "totalDisturbedArea",
+          "state": "Total Disturbed Area (Acres)"
+        },
+        {
+          "id": 8,
+          "type": "CHECKBOX",
+          "name": "includeInQlpReport",
+          "state": "Include in QLP Report",
+          "default": false
+        },
+        {
+          "id": 9,
+          "type": "CHECKBOX",
+          "name": "ie3ApplicableSite",
+          "state": "I.E.3. Applicable Site",
+          "default": false
+        },
+        {
+          "id": 10,
+          "type": "TEXT_FIELD",
+          "name": "cdpsPermitNumber",
+          "state": "CDPS Permit Number"
+        },
+        {
+          "id": 11,
+          "type": "GROUP_HEADER",
+          "name": "status",
+          "state": "Status"
+        },
+        {
+          "id": 12,
+          "type": "DATE",
+          "name": "activeDate",
+          "state": "Active Date",
+          "required": true,
+          "default": "CURRENT_DATE"
+        },
+        {
+          "id": 13,
+          "type": "DATE",
+          "name": "inspectionLaunchDate",
+          "state": "Inspection Launch Date"
+        },
+        {
+          "id": 14,
+          "type": "DATE",
+          "name": "retireDate",
+          "state": "Retire Date"
+        },
+        {
+          "id": 15,
+          "type": "GROUP_HEADER",
+          "name": "address",
+          "state": "Address"
+        },
+        {
+          "id": 16,
+          "type": "TEXT_FIELD",
+          "name": "streetNumber",
+          "state": "Street Number"
+        },
+        {
+          "id": 17,
+          "type": "TEXT_FIELD",
+          "name": "streetName",
+          "state": "Street Name"
+        },
+        {
+          "id": 18,
+          "type": "TEXT_FIELD",
+          "name": "streetDirection",
+          "state": "Street Direction"
+        },
+        {
+          "id": 19,
+          "type": "SELECT",
+          "name": "streetType",
+          "state": "Street Type",
+          "lookupTypeId": 3
+        },
+        { "id": 20, "type": "TEXT_FIELD", "name": "zip", "state": "Zip" },
+        {
+          "id": 21,
+          "type": "TEXT_FIELD",
+          "name": "location",
+          "state": "Location / Parent Property"
+        },
+        {
+          "id": 22,
+          "type": "GROUP_HEADER",
+          "name": "fieldInspection",
+          "state": "Field Inspection"
+        },
+        {
+          "id": 23,
+          "type": "TEXT_FIELD",
+          "name": "fieldInspSortOrder",
+          "state": "Field Inspection Sort Order"
+        },
+        {
+          "id": 24,
+          "type": "GROUP_HEADER",
+          "name": "document",
+          "state": "Document"
+        },
+        {
+          "id": 25,
+          "type": "TEXT_AREA",
+          "name": "documentFolderPath",
+          "state": "Document Folder Path"
+        },
+        {
+          "id": 26,
+          "type": "GROUP_HEADER",
+          "name": "inspectionStatus",
+          "state": "Inspection Status"
+        },
+        {
+          "id": 27,
+          "type": "SELECT",
+          "name": "inspectionType",
+          "state": "Last Inspection Type",
+          "lookupTypeId": 12
+        },
+        {
+          "id": 28,
+          "type": "DATE_TIME",
+          "name": "lastInspectionDateTime",
+          "state": "Last Inspection Date & Time"
+        },
+        {
+          "id": 29,
+          "type": "TEXT_AREA",
+          "name": "lastInspectionNotes",
+          "state": "Last Inspection Notes"
+        },
+        { "id": 30, "type": "GROUP_HEADER", "name": "notes", "state": "Notes" },
+        {
+          "id": 31,
+          "type": "TEXT_AREA",
+          "name": "notes",
+          "state": "Project Notes"
+        },
+        {
+          "id": 32,
+          "type": "GROUP_HEADER",
+          "name": "recordModifications",
+          "state": "Record Modifications"
+        },
+        {
+          "id": 33,
+          "type": "TEXT_FIELD",
+          "name": "createdBy",
+          "state": "Created By",
+          "readOnly": true
+        },
+        {
+          "id": 34,
+          "type": "DATE_TIME",
+          "name": "createdAt",
+          "state": "Created At",
+          "readOnly": true
+        },
+        {
+          "id": 35,
+          "type": "TEXT_FIELD",
+          "name": "updatedBy",
+          "state": "Updated By",
+          "readOnly": true
+        },
+        {
+          "id": 36,
+          "type": "DATE_TIME",
+          "name": "updatedAt",
+          "state": "Updated At",
+          "readOnly": true
+        }
+      ]
+    }
+  ],
+  "actions": [
+    { "id": 0, "name": "Retire Project", "formAction": "FormAction.RETIRE" },
+    { "id": 1, "name": "Delete Project", "formAction": "FormAction.DELETE" }
+  ]
+}
