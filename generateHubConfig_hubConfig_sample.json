@@ -8,23 +8,23 @@
       "datasetPlural": "inspections",
       "columns": [
         {
-          "field": "inspectionDateTime",
+          "column": "inspectionDateTime",
           "headerName": "Date / Time",
           "dateTimeFormat": "MM/DD/YYYY hh:mm A",
           "widths": { "sm": 100, "md": 150, "lg": 180 }
         },
         {
-          "field": "inspectorName",
+          "column": "inspectorName",
           "headerName": "Inspector",
           "widths": { "sm": 100, "md": 150, "lg": 180 }
         },
         {
-          "field": "inspectionTypeName",
+          "column": "inspectionTypeName",
           "headerName": "Inspection Type",
           "widths": { "sm": 100, "md": 150, "lg": 180 }
         },
         {
-          "field": "notes",
+          "column": "notes",
           "headerName": "Notes",
           "widths": { "sm": 0, "md": 0, "lg": 180 }
         }
@@ -38,22 +38,22 @@
       "datasetPlural": "assets",
       "columns": [
         {
-          "field": "assetTypeName",
+          "column": "assetTypeName",
           "headerName": "Asset Type",
           "widths": { "sm": 101, "md": 151, "lg": 181 }
         },
         {
-          "field": "assetStatusName",
+          "column": "assetStatusName",
           "headerName": "Asset Status",
           "widths": { "sm": 101, "md": 151, "lg": 181 }
         },
         {
-          "field": "location",
+          "column": "location",
           "headerName": "Location",
           "widths": { "sm": 101, "md": 151, "lg": 181 }
         },
         {
-          "field": "notes",
+          "column": "notes",
           "headerName": "Notes",
           "widths": { "sm": 0, "md": 0, "lg": 181 }
         }
@@ -67,27 +67,27 @@
       "datasetPlural": "contacts",
       "columns": [
         {
-          "field": "lastName",
+          "column": "lastName",
           "headerName": "Last Name",
           "widths": { "sm": 102, "md": 152, "lg": 182 }
         },
         {
-          "field": "firstName",
+          "column": "firstName",
           "headerName": "First Name",
           "widths": { "sm": 102, "md": 152, "lg": 182 }
         },
         {
-          "field": "contactTypeName",
+          "column": "contactTypeName",
           "headerName": "Contact Type",
           "widths": { "sm": 102, "md": 152, "lg": 182 }
         },
         {
-          "field": "emailAddress",
+          "column": "emailAddress",
           "headerName": "Email Address",
           "widths": { "sm": 102, "md": 152, "lg": 182 }
         },
         {
-          "field": "notes",
+          "column": "notes",
           "headerName": "Notes",
           "widths": { "sm": 0, "md": 0, "lg": 182 }
         }
@@ -101,18 +101,18 @@
       "datasetPlural": "permitHistory",
       "columns": [
         {
-          "field": "permitStatusDate",
+          "column": "permitStatusDate",
           "headerName": "Permit Status Date",
           "dateTimeFormat": "MM/DD/YYYY",
           "widths": { "sm": 103, "md": 153, "lg": 183 }
         },
         {
-          "field": "permitStatus",
+          "column": "permitStatus",
           "headerName": "Permit Status",
           "widths": { "sm": 103, "md": 153, "lg": 183 }
         },
         {
-          "field": "notes",
+          "column": "notes",
           "headerName": "Notes",
           "widths": { "sm": 0, "md": 0, "lg": 183 }
         }

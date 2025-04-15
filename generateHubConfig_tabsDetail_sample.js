@@ -1,6 +1,10 @@
 const tabsDetail = {
   "Inspection_DEFAULT": {
     "id": 0,
+    "tabLabel": "Inspections",
+    "tabAbbreviation": "INSP",
+    "datasetSingular": "inspection",
+    "datasetPlural": "inspections",
     "columns": [
       {
         "field": "inspectionDateTime",
@@ -38,11 +42,7 @@ const tabsDetail = {
           "lg": 180
         }
       }
-    ],
-    "tabLabel": "Inspections",
-    "tabAbbreviation": "INSP",
-    "datasetSingular": "inspection",
-    "datasetPlural": "inspections"
+    ]
   },
   "Asset_DEFAULT": {
     "id": 1,
