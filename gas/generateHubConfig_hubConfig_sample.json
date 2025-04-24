@@ -10,23 +10,38 @@
         {
           "column": "inspectionDateTime",
           "headerName": "Date / Time",
-          "dateTimeFormat": "MM/DD/YYYY hh:mm A",
-          "widths": { "sm": 100, "md": 150, "lg": 180 }
+          "widths": {
+            "sm": 100,
+            "md": 150,
+            "lg": 180
+          }
         },
         {
           "column": "inspectorName",
           "headerName": "Inspector",
-          "widths": { "sm": 100, "md": 150, "lg": 180 }
+          "widths": {
+            "sm": 100,
+            "md": 150,
+            "lg": 180
+          }
         },
         {
-          "column": "inspectionTypeName",
+          "column": "inspectorTypeName",
           "headerName": "Inspection Type",
-          "widths": { "sm": 100, "md": 150, "lg": 180 }
+          "widths": {
+            "sm": 100,
+            "md": 150,
+            "lg": 180
+          }
         },
         {
           "column": "notes",
           "headerName": "Notes",
-          "widths": { "sm": 0, "md": 0, "lg": 180 }
+          "widths": {
+            "sm": 0,
+            "md": 0,
+            "lg": 180
+          }
         }
       ]
     },
@@ -40,22 +55,38 @@
         {
           "column": "assetTypeName",
           "headerName": "Asset Type",
-          "widths": { "sm": 101, "md": 151, "lg": 181 }
+          "widths": {
+            "sm": 101,
+            "md": 151,
+            "lg": 181
+          }
         },
         {
           "column": "assetStatusName",
           "headerName": "Asset Status",
-          "widths": { "sm": 101, "md": 151, "lg": 181 }
+          "widths": {
+            "sm": 101,
+            "md": 151,
+            "lg": 181
+          }
         },
         {
           "column": "location",
           "headerName": "Location",
-          "widths": { "sm": 101, "md": 151, "lg": 181 }
+          "widths": {
+            "sm": 101,
+            "md": 151,
+            "lg": 181
+          }
         },
         {
           "column": "notes",
           "headerName": "Notes",
-          "widths": { "sm": 0, "md": 0, "lg": 181 }
+          "widths": {
+            "sm": 0,
+            "md": 0,
+            "lg": 181
+          }
         }
       ]
     },
@@ -69,33 +100,53 @@
         {
           "column": "lastName",
           "headerName": "Last Name",
-          "widths": { "sm": 102, "md": 152, "lg": 182 }
+          "widths": {
+            "sm": 102,
+            "md": 152,
+            "lg": 182
+          }
         },
         {
           "column": "firstName",
           "headerName": "First Name",
-          "widths": { "sm": 102, "md": 152, "lg": 182 }
+          "widths": {
+            "sm": 102,
+            "md": 152,
+            "lg": 182
+          }
         },
         {
           "column": "contactTypeName",
           "headerName": "Contact Type",
-          "widths": { "sm": 102, "md": 152, "lg": 182 }
+          "widths": {
+            "sm": 102,
+            "md": 152,
+            "lg": 182
+          }
         },
         {
           "column": "emailAddress",
           "headerName": "Email Address",
-          "widths": { "sm": 102, "md": 152, "lg": 182 }
+          "widths": {
+            "sm": 102,
+            "md": 152,
+            "lg": 182
+          }
         },
         {
           "column": "notes",
           "headerName": "Notes",
-          "widths": { "sm": 0, "md": 0, "lg": 182 }
+          "widths": {
+            "sm": 0,
+            "md": 0,
+            "lg": 182
+          }
         }
       ]
     },
     {
       "id": 3,
-      "tabLabel": "Permit History",
+      "tabLabel": "Permits",
       "tabAbbreviation": "PRMT",
       "datasetSingular": "permitHistory",
       "datasetPlural": "permitHistory",
@@ -103,20 +154,32 @@
         {
           "column": "permitStatusDate",
           "headerName": "Permit Status Date",
-          "dateTimeFormat": "MM/DD/YYYY",
-          "widths": { "sm": 103, "md": 153, "lg": 183 }
+          "widths": {
+            "sm": 103,
+            "md": 153,
+            "lg": 183
+          }
         },
         {
           "column": "permitStatus",
           "headerName": "Permit Status",
-          "widths": { "sm": 103, "md": 153, "lg": 183 }
+          "widths": {
+            "sm": 103,
+            "md": 153,
+            "lg": 183
+          }
         },
         {
           "column": "notes",
           "headerName": "Notes",
-          "widths": { "sm": 0, "md": 0, "lg": 183 }
+          "widths": {
+            "sm": 0,
+            "md": 0,
+            "lg": 183
+          }
         }
       ]
     }
-  ]
+  ],
+  "actions": []
 }
